@@ -1,51 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>In The End</title>
+    <title>Xin lỗi em</title>
     <style>
       body {
-        margin: 0;
-        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background: linear-gradient(to bottom, #000, #222);
-        color: white;
+        background-color: #fbecec;
         font-family: Arial, sans-serif;
         text-align: center;
-        overflow: hidden;
       }
       .container {
-        position: relative;
-        max-width: 600px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       }
       h1 {
-        font-size: 2.5rem;
-        opacity: 0;
-        transform: translateY(30px);
-        animation: fadeInUp 3s ease-in-out forwards;
+        color: #e63946;
       }
-      @keyframes fadeInUp {
-        0% {
-          opacity: 0;
-          transform: translateY(30px);
-        }
-        100% {
-          opacity: 1;
-          transform: translateY(0);
-        }
+      p {
+        font-size: 18px;
+        color: #555;
+      }
+      .heart {
+        font-size: 50px;
+        color: #e63946;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>
-        I tried so hard and got so far.<br />But in the end, It doesn't even
-        matter
-      </h1>
+      <h1>Anh xin lỗi</h1>
+      <p>Anh sai rồi, tha thứ cho anh nha ❤️</p>
+      <div class="heart">💖</div>
     </div>
   </body>
 </html>
